@@ -1,5 +1,8 @@
 package com.covid19army.ZuulGatewayService.dtos;
 
+import org.springframework.stereotype.Component;
+import org.springframework.web.context.annotation.RequestScope;
+
 public class UserResponseDto {
 
 	private long userid;
